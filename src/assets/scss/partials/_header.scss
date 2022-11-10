@@ -1,0 +1,35 @@
+@use 'variables' as *;
+
+header {
+      padding: 2rem 0;
+
+      .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      }
+
+      .navbar {
+            a {
+                  display: inline-block;
+                  text-transform: uppercase;
+                  font-family: 'PT Sans Narrow', sans-serif;
+                  color: $dark;
+                  text-decoration: none;
+                  padding: 1rem;
+
+                  &:hover {
+                        color: $primary;
+                        border-bottom: 2px solid $primary;
+                  }
+
+                  &.active {
+                        color: $primary;
+                        border-bottom: 2px solid $primary;
+
+                  }
+            }
+
+
+      }
+}

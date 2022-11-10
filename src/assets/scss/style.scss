@@ -1,0 +1,8 @@
+@use './partials/header';
+@use '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
