@@ -5,24 +5,24 @@ export default {
             return {
                   icons: [
                         {
-                              image: '../assets/img/buy-comics-digital-comics.png',
-                              text: 'Digital comics'
+                              image: 'buy-comics-digital-comics.png',
+                              text: 'Digital Comics'
                         },
                         {
-                              image: '',
-                              text: 'Digital comics'
+                              image: 'buy-comics-merchandise.png',
+                              text: 'DC Merchandise'
                         },
                         {
-                              image: '',
-                              text: 'Digital comics'
+                              image: 'buy-comics-subscriptions.png',
+                              text: 'Subscriction'
                         },
                         {
-                              image: '',
-                              text: 'Digital comics'
+                              image: 'buy-comics-shop-locator.png',
+                              text: 'Comics shop locator'
                         },
                         {
-                              image: '',
-                              text: 'Digital comics'
+                              image: 'buy-dc-power-visa.svg',
+                              text: 'DC power visa'
                         }
                   ]
             }
@@ -37,7 +37,7 @@ export default {
             <div class="my-container">
                   <div class="row">
                         <div class="col" v-for="icon in icons">
-                              <img :src="icon.image" alt="">
+                              <img :src="'./src/assets/img/' + icon.image" alt="">
                               <h3>{{ icon.text }}</h3>
                         </div>
                   </div>

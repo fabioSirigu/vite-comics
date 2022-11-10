@@ -21,6 +21,7 @@ main {
 
       .my-container {
             background-color: $primary;
+            padding: 1rem 0;
 
             .row {
                   color: $light;
@@ -29,6 +30,21 @@ main {
                   margin: auto;
                   display: flex;
                   align-items: center;
+
+                  .col {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                              width: 60px;
+                        }
+
+                        h3 {
+                              font-size: 16px;
+                              padding: 0 0.5rem;
+                              text-transform: uppercase;
+                        }
+                  }
             }
       }
 
