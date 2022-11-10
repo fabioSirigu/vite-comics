@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+main {
+
+      background-color: $dark;
+
+      .jumbotron {
+            height: 120px;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+
+            h1 {
+                  color: $light;
+                  text-transform: uppercase;
+                  font-family: 'PT Sans Narrow', sans-serif;
+
+            }
+      }
+}

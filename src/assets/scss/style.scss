@@ -1,5 +1,6 @@
 @use './partials/header';
-@use '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@use './partials/main';
+@use '../node_modules/bootstrap/scss/bootstrap.scss';
 
 * {
       margin: 0;

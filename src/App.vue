@@ -1,9 +1,11 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue'
+import SiteMain from './components/SiteMain.vue'
 export default {
   name: 'App',
   components: {
-    SiteHeader
+    SiteHeader,
+    SiteMain
   }
 }
 </script>
@@ -11,6 +13,8 @@ export default {
 <template>
   <SiteHeader />
   <!-- /#site_header -->
+  <SiteMain />
+  <!-- /#site_main -->
 </template>
 
 <style lang="scss">

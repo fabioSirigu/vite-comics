@@ -51,7 +51,7 @@ export default {
 </script>
 <template>
       <header id="site_header">
-            <div class="container">
+            <div class="my_container">
                   <div class="logo">
                         <img src="../assets/img/dc-logo.png" alt="">
                   </div>
