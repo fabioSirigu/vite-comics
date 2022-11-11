@@ -18,7 +18,7 @@ main {
                         color: $light;
                         background-color: $primary;
                         position: absolute;
-                        bottom: -20px;
+                        bottom: -30px;
                   }
             }
 
@@ -29,16 +29,21 @@ main {
             background-color: $dark;
             padding: 2rem 0;
 
-            img {
-                  width: 120px;
-                  aspect-ratio: 1/1;
-                  object-fit: cover;
+            .row {
+                  padding: 1rem;
+
+                  img {
+                        width: 200px;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                  }
+
+                  p {
+                        color: $light;
+                        padding: 1rem 0;
+                  }
             }
 
-            p {
-                  color: $light;
-                  padding: 1rem 0;
-            }
 
             .load_more {
 
@@ -73,7 +78,7 @@ main {
                         text-decoration: none;
 
                         img {
-                              width: 60px;
+                              width: 50px;
                         }
 
                         h3 {
