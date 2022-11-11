@@ -2,14 +2,32 @@
 
 main {
 
-      background-color: $dark;
+      .banner {
+            height: 500px;
+            background-image: url(../img/jumbotron.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .container {
+                  position: relative;
+                  height: 100%;
+
+                  h3 {
+                        padding: 0.5rem 1rem;
+                        width: max-content;
+                        color: $light;
+                        background-color: $primary;
+                        position: absolute;
+                        bottom: -20px;
+                  }
+            }
+
+      }
 
       .jumbotron {
 
-            max-width: 1200px;
+            background-color: $dark;
             padding: 2rem 0;
-            margin: auto;
-            display: flex;
 
             img {
                   width: 120px;
@@ -20,6 +38,18 @@ main {
             p {
                   color: $light;
                   padding: 1rem 0;
+            }
+
+            .load_more {
+
+
+                  h3 {
+                        padding: 0.5rem 1rem;
+                        margin: auto;
+                        width: max-content;
+                        color: $light;
+                        background-color: $primary;
+                  }
             }
 
 
