@@ -117,7 +117,7 @@ export default {
             <div class="contact_us">
                   <div class="my_container">
                         <div class="row">
-                              <div class="col">
+                              <div class="col-5">
                                     <div class="row">
                                           <div class="col">
                                                 <h3>dc comics</h3>
@@ -142,9 +142,7 @@ export default {
                                           </div>
                                     </div>
                               </div>
-                              <div class="col-7">
-                                    <!-- <img src="../assets/img/dc-logo-bg.png" alt=""> -->
-                              </div>
+
                         </div>
                   </div>
 

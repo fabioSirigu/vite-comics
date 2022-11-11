@@ -26,6 +26,12 @@ export default {
                         }
                   ]
             }
+
+      },
+      methods: {
+            getImageUrl(name) {
+                  return new URL(`../assets/img/${name}`, import.meta.url).href
+            }
       }
 }
 </script>
@@ -33,7 +39,7 @@ export default {
       <div class="my-container">
             <div class="row">
                   <div class="col" v-for="icon in icons">
-                        <img :src="'./src/assets/img/' + icon.image" alt="">
+                        <img :src="getImageUrl(icon.image)" alt="">
                         <h3>{{ icon.text }}</h3>
                   </div>
             </div>
